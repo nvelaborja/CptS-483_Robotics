@@ -1,0 +1,5 @@
+Name: Nathan VelaBorja
+Assignment: CptS 483 Lab 2
+Collaboration: I didn't work with anyone on this project
+References: I didn't use any online references for this project
+Advice: Even in the simulation, the robot does not behave as expected! Working with someone else would be much faster, and writing more complex code would actually be very helpful.
