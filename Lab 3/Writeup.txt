@@ -14,8 +14,8 @@ Questions:
 	on course towards the guiding object. 
 
 2. Links:
-	Math controller: 
-	Reactive controller: 
+	Math controller: https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%203/Square.py
+	Reactive controller: https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%203/ReactiveSquare.py
 
 3. Math:
 	To calculate linear velocity, I simply took (radius / 2) * (u1 + u2) where u1 and u2 are speeds
@@ -25,11 +25,11 @@ Questions:
 		move the desired distance or turn the desired degrees.
 
 4. World Files:
-	hydrantSquare: 
+	hydrantSquare: https://github.com/nvelaborja/CptS-483_Robotics/blob/master/World%20Files/hydrantSquare
 
 5. Code Files: 
-	Square.py:
-	ReactiveSquare.py: 
+	Square.py: https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%203/Square.py
+	ReactiveSquare.py: https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%203/ReactiveSquare.py
 
 	Instructions:
 		-Get gazebo running with hydrantSquare world file
