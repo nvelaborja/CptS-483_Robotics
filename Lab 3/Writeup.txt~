@@ -1,0 +1,36 @@
+Assignment: Cpts 483 - Robotics - Lab 3
+Name: Nathan VelaBorja
+ID: 11392441
+Collaborations: No collaborations
+Hardest Part: I thought the hardest part of the assignment was the setup. The actual playing around with code was actuallly pretty fun.
+References: I only used the links you showed us during class, and various python syntax pages
+
+Questions:
+
+1. My robot returned to a more exact location in my reactive controller than my mathematical controller. 
+	For the math controller, I gave the math a good shot then tried fine tuning it afterwards, but the 
+	turning would never be a perfect 90 degrees, it was usually of by as much as 1 degree. With the 
+	reactive controller, whenever the robot would turn off course, my code would stop it and put it back
+	on course towards the guiding object. 
+
+2. Links:
+	Math controller: 
+	Reactive controller: 
+
+3. Math:
+	To calculate linear velocity, I simply took (radius / 2) * (u1 + u2) where u1 and u2 are speeds
+		of the left and right wheels respectively.
+        Similarly, to get angular velocity, I took (radius / (2 * length)) * (u1 - u2).
+	Then, I did some math by hand to determine what speeds to input for u1 and u2 to get my robot to 
+		move the desired distance or turn the desired degrees.
+
+4. World Files:
+	hydrantSquare: 
+
+5. Code Files: 
+	Square.py:
+	ReactiveSquare.py: 
+
+	Instructions:
+		-Get gazebo running with hydrantSquare world file
+		- run Square.py or ReactiveSquare.py
