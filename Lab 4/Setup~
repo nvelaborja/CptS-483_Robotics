@@ -1,0 +1,29 @@
+Connect to robot (on laptop):
+	ssh turtlebot@192.168.1.171
+
+Init (robot):
+	roscore
+	roslaunch turtlebot_bringup minimal.launch
+
+Movement (laptop or robot):
+	roslaunch turtlebot_teleop keyboard_teleop.launch 
+
+Vision (robot):
+	roslaunch turtlebot_bringup 3dsensor.launch
+
+Vision (laptop):
+	rosrun image_view image_view image:=/camera/rgb/image_raw
+
+Bash Stuff (laptop):
+	sudo gedit /etc/hosts
+	Then add a line similar to
+ 		192.168.1.127 irll-<name>
+	Change the ip address to be the ip address of the turtlebot, and set irll-<name> to be the hostname of the computer (irll-brian for example)
+ 
+ 
+	Setup your ~/.bashrc file to have the following lines:
+	export ROS_MASTER_URI=http://irll-brian:11311
+	export ROS_IP=$(ip addr | awk '/inet/ && /wlan0/{sub(/\/.*$/,"",$2); print $2}')
+
+
+

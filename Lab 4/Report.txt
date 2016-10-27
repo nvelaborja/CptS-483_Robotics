@@ -1,0 +1,19 @@
+Team:
+	Yang Hu
+	Yang Zheng
+	Nathan VelaBorja
+	Jacob Krahling
+	Joey "The Turkey" Quaranta
+
+References:
+	Jame's code for Lab 3 solution
+	draw_a_square.py found online by Mark Silliman
+
+Video Links: (Commentary Included!)
+
+Measurements:
+	
+Conclusions:
+	Based on our observations, the color-tracking method draws a far better square. To improve our code, we would probably have the robot move a little slower, and increased the magnitude threshold to detect stopping position. This would have the robot stop closer to, in our case, the yellow squares, which would make for a sharper turning angle. 
+
+Code Files: (Also included in submission)
