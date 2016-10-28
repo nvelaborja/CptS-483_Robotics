@@ -1,4 +1,4 @@
-Team:
+Team:															October 27, 2016
 	Yang Hu
 	Yang Zheng
 	Nathan VelaBorja
@@ -7,13 +7,25 @@ Team:
 
 References:
 	Jame's code for Lab 3 solution
-	draw_a_square.py found online by Mark Silliman
+	draw_a_square.py found online by Mark Silliman for "Perfect Square"
 
 Video Links: (Commentary Included!)
+	Reactive: https://www.youtube.com/watch?v=Tdz-wJqHRPc
+	Kinematic: https://www.youtube.com/watch?v=L__TYw_62YM
+	PerfectSquare: https://www.youtube.com/watch?v=0qdK8iEDS30
 
 Measurements:
+	Reactive:
+		Desired Distance: 2m
+		Actual Distance: 1.77m ~ 1.79m
+	Kinematic:
+		Desired Distance: 2m
+		Actual Distance: 1.75m ~ 1.76m
 	
 Conclusions:
 	Based on our observations, the color-tracking method draws a far better square. To improve our code, we would probably have the robot move a little slower, and increased the magnitude threshold to detect stopping position. This would have the robot stop closer to, in our case, the yellow squares, which would make for a sharper turning angle. 
 
 Code Files: (Also included in submission)
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%204/KinematicSquare.py
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%204/ReactiveSquare.py
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%204/draw_a_square.py
