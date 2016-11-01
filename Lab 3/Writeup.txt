@@ -34,3 +34,6 @@ Questions:
 	Instructions:
 		-Get gazebo running with hydrantSquare world file
 		- run Square.py or ReactiveSquare.py
+	
+6. Videos:
+	https://github.com/nvelaborja/CptS-483_Robotics/tree/master/Lab%203/Videos
