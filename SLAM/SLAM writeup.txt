@@ -1,0 +1,18 @@
+SLAM Excercise for CptS 483 - Intro to Robotics
+Washington State University
+November 8, 2016
+
+Team Members:
+Nathan VelaBorja
+Jacob Krahling
+Joey Quaranta
+Yang Hu
+Yang Zheng
+Michael Antosz
+
+World Files:
+	*Links to world files after git upload*
+
+Videos:
+	RViz: https://youtu.be/BNcJsG_LCGM
+	Live: https://youtu.be/aGMJwdaLW8Q
