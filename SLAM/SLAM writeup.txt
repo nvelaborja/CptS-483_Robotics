@@ -10,8 +10,9 @@ Yang Hu
 Yang Zheng
 Michael Antosz
 
-World Files:
-	*Links to world files after git upload*
+Map Files:
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/SLAM/dana3_map.pgm
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/SLAM/dana3_map.yaml
 
 Videos:
 	RViz: https://youtu.be/BNcJsG_LCGM
