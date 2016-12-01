@@ -4,8 +4,9 @@ Collaboration: Yang Hu
 References: None :)
 
 Video:
-
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%205/Lab%205.mp4
 Code:
+	https://github.com/nvelaborja/CptS-483_Robotics/blob/master/Lab%205/ardroneLanding.py
 
 Algorithm Explanation:
 	I made my program into a simple state machine. The states are as follows:
