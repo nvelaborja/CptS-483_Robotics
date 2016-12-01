@@ -1,0 +1,28 @@
+Name: Nathan VelaBorja
+Assignment: Lab 5
+Collaboration: Yang Hu
+References: None :)
+
+Video:
+
+Code:
+
+Algorithm Explanation:
+	I made my program into a simple state machine. The states are as follows:
+	SEARCH:
+		The drone quickly ascends straight up until it seems the landing pad. 
+		Moves to ROTATE.
+	ROTATE:
+		The drone rotates until the landing pad is located directly in front of it.
+		Moves to FORWARD.
+	FORWARD:
+		The drone moves forward until it is directly above the landing pad.
+		If it rotates accidentally, goes back to ROTATE.
+		If it gets directly over the pad, goes to DESCEND.
+	DESCEND:
+		The drone stops all momentum and fine-tunes it's location until it is 
+		confidently above the landing pad. 
+		Moves to SHUTDOWN.
+	SHUTDOWN:
+		The drone shuts down its motors and falls to the landing pad.
+		Hope no one was on board!

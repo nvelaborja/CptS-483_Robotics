@@ -1,0 +1,19 @@
+Implement Google Cartographer and RPLIDAR 360 to build a 2D map [1]
+
+Team members:
+Yang Hu
+Nathan VelaBorja
+Yang Zheng
+
+Expected success and tentative timeline:
+[Nov 15] 1. Install and set up Cartographer ROS for TurtleBots [2]. Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+[Nov 15] 2. Install RPLIDAR ROS package [3]. RPLIDAR provides 360 degree scan field, 5.5hz/10hz rotating frequency with guaranteed 6 meter ranger distance. The output of RPLIDAR is very suitable to build map, do slam, or build 3D model.
+[Nov 22] 3. Connect RPLIDAR to Turtlebot.
+[Nov 22] 4. Integrate RPLIDAR to Cartographer and drive the Turtlebot to build 2D map of DANA 3.
+[Nov 30] 5. Compare the map built from Cartographer and RPLIDAR 360 with the map from our SLAM lab. We could expect the building process will be faster if using Cartographer with RPLIDAR. This is the minimum success.
+[Dec 07] 6. Automatically generate a 2D map with Cartographer and RPLIDAR 360.
+[Dec 07] 7. Try to build a 2D map for a larger place.
+
+[1] https://opensource.googleblog.com/2016/10/introducing-cartographer.html
+[2] https://google-cartographer-ros-for-turtlebots.readthedocs.io/en/latest/
+[3] https://github.com/robopeak/rplidar_ros/wiki
